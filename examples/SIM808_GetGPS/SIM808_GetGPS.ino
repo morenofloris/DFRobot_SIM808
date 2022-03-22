@@ -19,7 +19,7 @@
 
 //#define PIN_TX    10
 //#define PIN_RX    11
-//SoftwareSerial mySerial(PIN_TX,PIN_RX);
+//SoftwareSerial mySerial(PIN_RX,PIN_TX);
 //DFRobot_SIM808 sim808(&mySerial);//Connect RX,TX,PWR,
 
 DFRobot_SIM808 sim808(&Serial);
